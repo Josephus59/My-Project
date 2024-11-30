@@ -1,0 +1,82 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="styles.css">  
+    <title>My Portfolio - Contact</title>  
+</head>  
+<body>  
+    <header>  
+        <h1>My Portfolio</h1>  
+        <nav>  
+            <ul>  
+                <li><a href="index.html">Home</a></li>  
+                <li><a href="about.html">About Me</a></li>  
+                <li><a href="contact.html">Contact</a></li>  
+            </ul>  
+        </nav>  
+    </header>  
+
+    <main>  
+
+        <h1>Contact Us</h1>  
+    <p>We’d love to hear from you! Here’s how you can reach out to us:</p>  
+
+    <div class="contact-info">  
+        <h2>Phone</h2>  
+        <p><strong>Home Service</strong> +(231) 777 731-211</p>  
+        <p><strong>Customer Service:</strong> +(231) 555 12-0558</p>  
+
+        <h2>Email</h2>  
+        <p><strong>General Inquiries:</strong> <a href="mailto:info-josephusflomo59@gmail.com">Josephus N Flomo.com</a></p>  
+        
+        <h2>Address</h2>  
+        <p>Police Academy Com<br>  
+        .<br>  
+        Paynesville City<br>  
+        Monrovia Liberia</p>  
+
+        
+
+        <h2>Social Media</h2>  
+        <p><strong>Facebook:</strong> <a href="http://facebook.com/yourcompany">facebook.com/Josephus N Flomo</a></p>  
+        <p><strong>Instagram:</strong> <a href="http://instagram.com/yourcompany">instagram.com/Josephus N Flomo</a></p>  
+        
+    </div> 
+
+        <section class="contact">  
+            <h2>Contact Me</h2>  
+            <form id="contactForm">  
+                <label for="name">Name:</label>  
+                <input type="text" id="name" name="name" required>  
+                
+                <label for="email">Email:</label>  
+                <input type="email" id="email" name="email" required>  
+                
+                <label for="message">Message:</label>  
+                <textarea id="message" name="message" required></textarea>  
+                
+                <button type="submit" class="submit-btn">Submit</button>  
+            </form>  
+        </section>  
+    </main>  
+
+    <footer>  
+        <p>&copy; 2024 Josephus N Flomo. All rights reserved.</p>  
+    </footer>  
+
+    <!-- Modal for Form Submission Confirmation -->  
+    <div id="confirmationModal" class="modal">  
+        <div class="modal-content">  
+            <span class="close-button" id="closeConfirmationModal">&times;</span>  
+            <h2>Confirmation</h2>  
+            <p>Are you sure you want to submit this form?</p>  
+            <button id="confirmSubmit">Yes</button>  
+            <button id="cancelSubmit">No</button>  
+        </div>  
+    </div>  
+    
+    <script src="script.js"></script>  
+</body>  
+</html>
